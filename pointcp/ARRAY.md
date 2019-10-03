@@ -1,20 +1,20 @@
-Olivia Borel
-300075826
-Assigment 1, Question 7
+**Olivia Borel**
+**300075826**
+*Assigment 1, Question 7*
 
-*the code used is copy/pasted at end of the note.
+the code used is copy/pasted at end of the note.
 
 
-Part a)
+#Part a)
 
 	After running the code 10 times, the following data was collected:
 
 		    |  MEAN   |  MEDIAN  |  MIN.  |  MAX.  | 
-
+	----------------------------------------------------
 	LinkedList  |  12023  |   11724  |  9926  |  14415 |
-
+	----------------------------------------------------
 	ArrayList   |  11096  |   10517  |  9802  |  14286 |
-
+	----------------------------------------------------
 	Array       |  1555   |   1475   |  1403  |  1732  |
 
 
@@ -22,23 +22,23 @@ Part a)
 
 
 
-Part b)
+#Part b)
 
 	After running the code 10 times, the following data was collected:
 
 		    |  MEAN  |  MEDIAN |  MIN.  |  MAX.  | 
-
+	--------------------------------------------------
 	LinkedList  |  5205  |   3082  |  1721  |  11511 |
-
+	--------------------------------------------------
 	ArrayList   |  844   |   829   |  268   |  1683  |
-
+	--------------------------------------------------
 	Array       |   67   |   65    |   62   |   89   |
 
 
 	note: all values are in ms.
 
 
-Conclusion/Recommendation:
+#Conclusion/Recommendation:
 
 	Based on the tests summarized above, one can conclude that the array is the 
 	most efficient during these runs. 
