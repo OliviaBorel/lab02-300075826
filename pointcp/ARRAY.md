@@ -24,11 +24,11 @@ Part b)
 
 	After running the code 10 times, the following data was collected:
 
-	Type | MEAN | MEDIAN | MIN. | MAX. 
+	    Type    |  MEAN  |  MEDIAN |  MIN.  | MAX. 
 	------------|--------|---------|--------|---------
-	LinkedList | 5205 | 3082 | 1721  | 11511
-	ArrayList | 844 | 829 | 268 | 1683
-	Array | 67 | 65 | 62 | 89
+	LinkedList  |  5205  |  3082   |  1721  | 11511
+	ArrayList   |  844   |   829   |   268  | 1683
+	Array       |   67   |   65    |   62   | 89
 
 
 	note: all values are in ms.
