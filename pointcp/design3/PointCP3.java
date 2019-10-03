@@ -1,33 +1,17 @@
-//importing design 2
 package design3;
 import design2.PointCP2;
 
-public class PointCP3 //implements PointCP6
+public class PointCP3 implements PointCP6
 {
-  //Instance variables ************************************************
-  /**
-   * Contains the current value of X
-   */
-  private double x;
 
-  /**
-   * Contains the current value of Y
-   */
+  private double x;
   private double y;
 
 
-  //Constructors ******************************************************
-
-  /**
-   * Constructs a coordinate object, with a type identifier.
-   */
   public PointCP3(double x, double y){
     this.x = x;
     this.y = y;
   }
-
-
-  //Instance methods **************************************************
 
 
   public double getX(){
@@ -47,9 +31,6 @@ public class PointCP3 //implements PointCP6
   }
 
 
-  /**
-   * Converts Cartesian coordinates to Polar coordinates.
-   */
   public PointCP2 convertStorageToPolar(){
       //Calculate RHO and THETA
       double temp = getRho();
@@ -59,21 +40,12 @@ public class PointCP3 //implements PointCP6
       return new PointCP2(x, y);
   }
 
-  /**
-   * Converts Polar coordinates to Cartesian coordinates.
-   */
+
   public PointCP3 convertStorageToCartesian(){
       return new PointCP3(x,y);
   }
 
-  /**
-   * Calculates the distance in between two points using the Pythagorean
-   * theorem  (C ^ 2 = A ^ 2 + B ^ 2). Not needed until E2.30.
-   *
-   * @param pointA The first point.
-   * @param pointB The second point.
-   * @return The distance between the two points.
-   */
+
   public double getDistance(PointCP3 pointB){
     // Obtain differences in X and Y, sign is not important as these values
     // will be squared later.
@@ -83,14 +55,7 @@ public class PointCP3 //implements PointCP6
     return Math.sqrt((Math.pow(deltaX, 2) + Math.pow(deltaY, 2)));
   }
 
-  /**
-   * Rotates the specified point by the specified number of degrees.
-   * Not required until E2.30
-   *
-   * @param point The point to rotate
-   * @param rotation The number of degrees to rotate the point.
-   * @return The rotated image of the original point.
-   */
+
   public PointCP3 rotatePoint(double rotation)
   {
     double radRotation = Math.toRadians(rotation);

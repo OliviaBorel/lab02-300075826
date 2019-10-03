@@ -1,8 +1,7 @@
-//importing design 3
 package design2;
 import design3.PointCP3;
 
-public class PointCP2 //implements PointCP6
+public class PointCP2 implements PointCP6
 {
   private double rho;
   private double theta;
