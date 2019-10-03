@@ -5,11 +5,11 @@
 the code used is copy/pasted at end of the note.
 
 
-#Part a)
+Part a)
 
 	After running the code 10 times, the following data was collected:
 
-		    |  MEAN   |  MEDIAN  |  MIN.  |  MAX.  | 
+	   Type     |  MEAN   |  MEDIAN  |  MIN.  |  MAX.  | 
 	----------------------------------------------------
 	LinkedList  |  12023  |   11724  |  9926  |  14415 |
 	----------------------------------------------------
@@ -22,11 +22,11 @@ the code used is copy/pasted at end of the note.
 
 
 
-#Part b)
+Part b)
 
 	After running the code 10 times, the following data was collected:
 
-		    |  MEAN  |  MEDIAN |  MIN.  |  MAX.  | 
+	   Type	    |  MEAN  |  MEDIAN |  MIN.  |  MAX.  | 
 	--------------------------------------------------
 	LinkedList  |  5205  |   3082  |  1721  |  11511 |
 	--------------------------------------------------
@@ -38,7 +38,7 @@ the code used is copy/pasted at end of the note.
 	note: all values are in ms.
 
 
-#Conclusion/Recommendation:
+Conclusion/Recommendation:
 
 	Based on the tests summarized above, one can conclude that the array is the 
 	most efficient during these runs. 
